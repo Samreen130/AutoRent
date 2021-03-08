@@ -1,0 +1,432 @@
+.form-inline {
+    float: right;
+}
+
+div.relative {
+    position: relative;
+    width: 100%;
+    height: 580px;
+    border-top: 3px solid #73AD21;
+  } 
+  
+  div.abs {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 350px;
+    height: 410px;
+    border: 3px solid  #1C221E ;
+    padding:10px;
+    background-color:  #1C221E;
+    color:white;
+  }
+
+  .contenthome {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    
+  }
+  
+  .dropbtnh {
+    background-color: white;
+    color:black;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:100%;
+    border-radius: 4%;
+    
+  }
+  
+  .dropdownh {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-contenth {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-contenth a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-contenth a:hover {background-color: #f1f1f1}
+  
+  .dropdownh:hover .dropdown-contenth {
+    display: block;
+  }
+  
+  .dropdownh:hover .dropbtnh {
+    background-color: #BFCAC5;
+  }
+
+  .img {
+    float: right;
+    
+    margin: 0px 0px 15px 20px;
+  }
+
+  .columnh {
+    float: left;
+    width: 20%;
+    padding: 1px;
+  }
+  .row3h{
+      padding-bottom:6px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row3h::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.subh:hover {
+ background-color: #7DBFCF;
+}
+.page-footerh{
+    background-color: #1C221E;
+    color: white;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("image/ban.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+  
+ /*START OF ABOUT PAGE*/
+
+ .relativea{
+
+    position: relative;
+    width: 100%;
+    height: 240px;
+    border-top: 3px solid #73AD21;
+    background-color: #1C221E;
+    color:white;
+    padding-left:60px;
+    
+    
+  } 
+  .imga{
+      float:right;
+      width:50%;
+      height:236px;
+  }
+
+  .img2a{
+      float:left;
+      height:330px;
+      padding:20px;
+      width:330px;
+  }
+  .img3a{
+    float:left;
+    height:330px;
+    padding:20px;
+    width:330px;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumna-sm-7 {   
+    float: left;
+    width: 72%;
+    height:250px;
+    
+  }
+  
+  /* Right column */
+  .rightcolumna-sm-4 {
+    float: left;
+    width: 28%;
+    padding-left: 20px;
+  }
+  
+
+  
+  /* Add a card effect for articles */
+  .carda {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .rowa:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  div.absa {
+    
+    
+    
+    width: 350px;
+    height: 410px;
+    border: 3px solid  #1C221E ;
+    padding:10px;
+    background-color:  #1C221E;
+    color:white;
+  }
+  hr.new1a{
+      border: 1px solid #73AD21;
+  }
+  .staffa:hover {
+      border: 1px solid black;
+      width:226px;
+  }
+
+  .columna {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    margin:20px;
+  }
+  .row3a{
+      padding-bottom:6px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row3a::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /*END OF ABOUT PAGE*/
+
+  /*START OF CONTACT PAGE*/
+
+  .bg-imagec {
+    /* The image used */
+    
+    
+    /* Add the blur effect */
+    height:800px;
+    width:100%;
+    
+    /* Full height */
+    
+    
+    /* Center and scale the image nicely */
+    
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-textc {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    
+    
+    transform: translate(65%, -108%);
+    z-index: 2;
+    width: 32%;
+    padding: 10px;
+    text-align: left;
+  }
+  .btncontact{
+    background-color: ;
+    color:black;
+    padding: 7px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width:40%;
+    border-radius: 4%;
+    
+
+  }
+
+  /*END OF CONTACT PAGE*/
+
+  /* START OF GALLERY PAGE*/
+
+  div.gallery {
+    border: 1px solid #ccc;
+    position: relative;
+  
+  color: white;
+  
+  color:black;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  .bottom-right {
+    position: absolute;
+    
+    bottom: 55px;
+    right: 0px;
+    width:100%;
+    color: white;
+    
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+.imageg {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middleg {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  transform: translate(30%, 5%);
+  -ms-transform: translate(50%, 50%);
+  text-align: center;
+}
+
+.containerg:hover .imageg {
+  
+  filter: blur(10px);
+  -webkit-filter: blur(8px);
+}
+
+.containerg:hover .middleg {
+  opacity: 1;
+}
+
+.textg {
+  background-color: rgba(255, 255, 255, .2);
+  
+  color: white;
+  border: 4px solid white;
+  font-size: 20px;
+  padding: 5px 7px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .leftcolumna-sm-7 .rightcolumna-sm-4 .columnh .columna{
+    width: 100%;
+    float:left; !important;
+  }
+
+  .responsiveg {
+    padding: 6px;
+    float: right;
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsiveg {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsiveg {
+      width: 100%;
+    }
+
+  /*END OF GALLERY PAGE*/
+
+  /*start of blog*/
+
+  .col-sm-4 {
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    background-color:white;
+    
+  }
+  
+  
+  .clearfix: :after {
+    content:"";
+    clear: both;
+    display: table;
+    
+  }
+  
+  
+  .head {
+    text-decoration: underline
+    
+  }
+ 
+
+  /*end of blog*/
+ 
+ 
+    
+    
+  
+  
+  
+  
+  
